@@ -14,7 +14,7 @@ preprocessing_num_workers: 8
 bf16: true
 do_eval: true
 eval_strategy: steps
-eval_steps: 10
+eval_steps: 1
 gradient_accumulation_steps: 8
 gradient_checkpointing: true
 gradient_checkpointing_kwargs:
